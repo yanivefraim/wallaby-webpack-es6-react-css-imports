@@ -1,5 +1,5 @@
 {
-  "name": "wallaby-webpack-es6-react-cssmodules",
+  "name": "wallaby-webpack-es6-react-css-imports",
   "version": "1.0.0",
   "description": "",
   "directories": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wallabyjs/wallaby-webpack-es6-react.git"
+    "url": "https://github.com/yanivefraim/wallaby-webpack-es6-react-css-imports"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "babel-core": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
     "node-sass": "^3.8.0",
     "phantomjs-polyfill": "^0.0.1",
     "wallaby-webpack": "*",
