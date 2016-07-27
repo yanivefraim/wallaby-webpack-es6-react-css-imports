@@ -1,3 +1,5 @@
+@import "src/styles/variables.scss";
+
 .div {
-  background-color: red;
+  background-color: $color-main;
 }

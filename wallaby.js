@@ -35,8 +35,9 @@ module.exports = function (wallaby) {
 
     preprocessors: {
       'src/**/*.scss': file => require('node-sass').renderSync(
-        { data: file.changeExt('css').content || ' ' }
-      ).css.toString()
+        { data: file.changeExt('css').content || ' ',
+          includePaths: ['src/styles/']
+        }).css.toString()
     },
 
     postprocessor: webpackPostprocessor,
